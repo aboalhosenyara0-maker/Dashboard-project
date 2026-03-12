@@ -1,0 +1,51 @@
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    .add_product{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        input{
+            width: 505px;
+            height: 45px;
+            border-radius: 8px;
+            background-color: #f5f7fa;
+            border-color:  #191a1d57;
+        }
+        
+        .save-btn{
+            width: 124px;
+            height: 34px;
+            color: white;
+            background-color: #3b82f6;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    }
+}
+.parent {
+    display: flex;
+    gap: 40px;
+}
+
+.upload-box {
+    width: 400px;
+    height: 250px;
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.upload-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
