@@ -68,10 +68,10 @@ const Products = () => {
                 <img src={item.image_url} alt={item.name} />
                 </td>
                 <td className="edit">
-                    <button onClick={() => navigate(`edit/${item.id}`)}><img src="/assets/edit.png" alt="" /></button>
+                    <button onClick={() => navigate(`edit/${item.id}`)}><img src="/Dashboard-project/assets/edit.png" alt="" /></button>
                     <button  onClick={() => {
                         setSelectedId(item.id)
-                        setshowPopup(true)}}><img src="/assets/delete.png" alt="" /></button>
+                        setshowPopup(true)}}><img src="/Dashboard-project/assets/delete.png" alt="" /></button>
                     {showPopup && (
             <div className="parent">
                 <div className="child">

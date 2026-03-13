@@ -51,7 +51,7 @@ const Register = () => {
             name :"first_name",
             label:"First Name",
             className: "input-email",
-            width :"45%"
+            width :"48%"
         },
         {
             type :"text" ,
@@ -59,7 +59,7 @@ const Register = () => {
             name :"last_name",
             label:"Last Name",
             className: "input-email",
-            width :"45%"
+            width :"48%"
         },
         {
             type: "text",
@@ -67,7 +67,7 @@ const Register = () => {
             name: "user_name",
             label: "Username",
             className: "input-email",
-            width: "94%"
+            width: "97%"
         },
         {
             type :"email" ,
@@ -75,7 +75,7 @@ const Register = () => {
             name :"email",
             label:"Email",
             className: "input-email",
-            width :"94%"
+            width :"97%"
             
         },
         {
@@ -84,7 +84,7 @@ const Register = () => {
             name :"password",
             label:"Password",
             className: "input-email",
-            width :"45%"
+            width :"48%"
         },
         {
             type :"Password" ,
@@ -92,7 +92,7 @@ const Register = () => {
             name :"password_confirmation",
             label:"Confirm",
             className: "input-email",
-            width :"45%"
+            width :"48%"
         },
         {
             type :"file" ,
@@ -100,11 +100,11 @@ const Register = () => {
             name :"profile_image",
             label:"Profile Image",
             className: "Profile_Image",
-            width :"95%"
+            width :"100%"
         },
     ]
     return (
-        <div>
+        <div id="design">
             <Form
             title="Sign Up"
             description="Create a account to continue"

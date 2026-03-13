@@ -24,15 +24,15 @@ const Sidebar = () => {
     return (
         <div>
         <div className="dash">
-            <img src="/assets/clock.png" alt="clock" />
+            <img src="/Dashboard-project/assets/clock.png" alt="clock" />
             <Link to="/dashboard/products">dashboard</Link>
         </div>
         <div className="product">
-            <img src="/assets/square.png" alt="square" />
+            <img src="/Dashboard-project/assets/square.png" alt="square" />
             <Link to="/dashboard/products">products</Link>
         </div>
         <div className='Logout'>
-            <img src="/assets/img.png" alt="clock" />
+            <img src="/Dashboard-project/assets/img.png" alt="clock" />
             <button style={{border:"none" , backgroundColor:"white" , cursor:"pointer"}} onClick={() => setshowPopup(true)} >Logout</button>
             {showPopup&& (
             <div className="popup-overlay">

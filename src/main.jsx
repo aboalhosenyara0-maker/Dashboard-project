@@ -43,7 +43,10 @@ const routes = createBrowserRouter([
       }
     ]
   }
-])
+],{
+  basename : "/Dashboard-project"
+}
+)
 
 
 createRoot(document.getElementById('root')).render(

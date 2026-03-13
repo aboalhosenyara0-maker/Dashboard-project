@@ -16,7 +16,7 @@ const Nav = () => {
             <h1>{getPageTitle()}</h1>
         </div>
     <div className="admin">
-        <img src="/assets/image.png" alt="admin" />
+        <img src="/Dashboard-project/assets/image.png" alt="admin" />
         <div>
             <p>Yara abo alhosen</p>
             <span>Admin</span>
